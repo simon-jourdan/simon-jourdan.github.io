@@ -1,7 +1,229 @@
-/* 
- * Add your own CSS code for the WYSIWYG editor 
- */
- .align-justify {
-    text-align: justify;
+@font-face {
+  font-family: "American Typewriter Web";
+  src: url("../webfonts/American Typewriter Web.woff2") format('woff2');
+}
+html {
+  --primary-font: "Courier New", Courier, monospace;
+  --secondary-font: "American Typewriter", "American Typewriter Web", "Times New Roman", Times, serif;
+  --color: #484848;
+    --color-rgb: 72,72,72;
+    --secondary-color: #000000;
+    --secondary-color-rgb: 0,0,0;
+    --color-on-black: #C3C3C3;
+    --color-on-black-rgb: 195,195,195;
+    --secondary-color-on-black: #FFFFFF;
+    --secondary-color-on-black-rgb: 255,255,255;
+}
+
+body, input, select, textarea {
+  color: #7f888f;
+  color: var(--color);
+  font-family: var(--primary-font);
+  font-size: 13pt;
+  font-weight: var(--font-weight-normal);
+  line-height: normal;
+}
+@media screen and (max-width: 1680px) {
+  body, input, select, textarea {
+    /* font-size: 11pt; */
   }
+}
+@media screen and (max-width: 1280px) {
+  body, input, select, textarea {
+    /* font-size: 10pt; */
+  }
+}
+@media screen and (max-width: 360px) {
+  body, input, select, textarea {
+    /* font-size: 9pt; */
+  }
+}
+
+a {
+  -webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+  -o-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+  border-bottom: dotted 1px;
+  color: var(--color);
+  text-decoration: none;
+}
+a:hover {
+  border-bottom-color: var(--secondary-color);
+  color: var(--secondary-color) !important;
+}
+
+.bg-black a {
+  color: var(--color-on-black);
+}
+.bg-black a:hover {
+  border-bottom-color: var(--secondary-color-on-black);
+  color: var(--secondary-color-on-black) !important;
+}
+
+strong, b {
+  /* color: #3d4449; */
+  font-weight: var(--font-weight-bold);
+}
+
+em, i {
+  font-style: italic;
+}
+
+p {
+  margin: 0 0 2em 0;
+  font-size: 0.9em;
+  hyphens: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color);
+  font-family: var(--secondary-font);
+  font-weight: var(--headings-weight);
+  line-height: 1.5;
+  margin: 0 0 1em 0;
+  text-transform: var(--headings-transform);
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 0;
+}
+
+h1, h2 {
+  font-style: italic;
+}
+
+.bg-black h1, .bg-black h2, .bg-black h3, .bg-black h4, .bg-black h5, .bg-black h6 {
+  color: var(--color-on-black);
+}
+
+h1 {
+  font-size: 2.5em;
+  margin: 0 0 0.5em 0;
+  line-height: 1.3;
+}
+
+h2 {
+  font-size: 1.3em;
+}
+
+h3 {
+  font-size: 1.1em;
+}
+
+h4 {
+  font-size: 1em;
+}
+
+h5 {
+  font-size: 0.9em;
+}
+
+h6 {
+  font-size: 0.7em;
+}
+
+sub {
+  font-size: 0.8em;
+  position: relative;
+  top: 0.5em;
+}
+
+sup {
+  font-size: 0.8em;
+  position: relative;
+  top: -0.5em;
+}
+
+blockquote {
+  /* border-left: solid 3px rgba(210, 215, 217, 0.75); */
+  /* font-style: italic; */
+  margin: 0 0 2em 0;
+  /* padding: 0.5em 0 0.5em 2em; */
+}
+
+code {
+  background: rgba(230, 235, 237, 0.25);
+  border-radius: 0.375em;
+  border: solid 1px rgba(210, 215, 217, 0.75);
+  font-family: "Courier New", monospace;
+  font-size: 0.9em;
+  margin: 0 0.25em;
+  padding: 0.25em 0.65em;
+}
+
+pre {
+  -webkit-overflow-scrolling: touch;
+  font-family: "Courier New", monospace;
+  font-size: 0.9em;
+  margin: 0 0 2em 0;
+}
+pre code {
+  display: block;
+  line-height: 1.75;
+  padding: 1em 1.5em;
+  overflow-x: auto;
+}
+
+hr {
+  border: 0;
+  border-bottom: solid 1px rgba(210, 215, 217, 0.75);
+  margin: 2em 0;
+}
+hr.major {
+  margin: 3em 0;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.align-justify {
+  text-align: justify;
+}
+
+iframe, figure, .post__image, .post_image img {
+  width: 100%;
+  display: block;
+}
+
+.signature {
+  margin: 0em 0 0.1em 0;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: right;
+  white-space: nowrap;
+  font-family: var(--secondary-font);
+}
+
+.signature a {
+  color: var(--color) !important;
+  font-family: var(--secondary-font)!important;
+  border-bottom: none !important;
+}
+
+.signature .prenom {
+  position: relative;
+  bottom: 5px;
+}
+.signature .nom {
+  position: relative;
+  top: 5px;
+  color: var(--secondary-color)
+}
+.bg-black .signature .nom {
+  color: var(--secondary-color-on-black);
+}
+
+.post__entry .signature {
+  margin-top: 3em;
+} 
   

@@ -69,18 +69,27 @@
 
 				});
 
+
+	// iframe aspect ratio
+	$("iframe").each((i,el)=>{
+		let $el=$(el);
+		let w = $el.attr("width");
+		let h = $el.attr("height");
+		$el.css("aspectRatio", `${w} / ${h}`);
+	})
+
 	// Sidebar.
 		var $sidebar = $('#sidebar'),
 			$sidebar_inner = $sidebar.children('.inner');
 
 		// Inactive by default on <= large.
-			// breakpoints.on('<large', function() {
-			// 	$sidebar.addClass('inactive');
-			// });
+			breakpoints.on('<large', function() {
+				$sidebar.addClass('inactive');
+			});
 
-			// breakpoints.on('>=large', function() {
-			// 	$sidebar.removeClass('inactive');
-			// });
+			breakpoints.on('>=large', function() {
+				$sidebar.removeClass('inactive');
+			});
 
 		// Hack: Workaround for Chrome/Android scrollbar position bug.
 			if (browser.os == 'android'
@@ -109,8 +118,8 @@
 				$sidebar.on('click', 'a', function(event) {
 
 					// >large? Bail.
-						// if (breakpoints.active('>=large'))
-						// 	return;
+						if (breakpoints.active('>=large'))
+							return;
 
 					// Vars.
 						var $a = $(this),
@@ -144,8 +153,8 @@
 				$sidebar.on('click touchend touchstart touchmove', function(event) {
 
 					// >large? Bail.
-						// if (breakpoints.active('>=large'))
-						// 	return;
+						if (breakpoints.active('>=large'))
+							return;
 
 					// Prevent propagation.
 						event.stopPropagation();
@@ -156,8 +165,8 @@
 				$body.on('click touchend', function(event) {
 
 					// >large? Bail.
-						// if (breakpoints.active('>=large'))
-						// 	return;
+						if (breakpoints.active('>=large'))
+							return;
 
 					// Deactivate.
 						$sidebar.addClass('inactive');
@@ -265,6 +274,9 @@
 					event.preventDefault();
 					event.stopPropagation();
 
+				// >large? Bail.
+				if (breakpoints.active('>=large'))
+					return;
 				// Toggle.
 					$sidebar.toggleClass('inactive');
 			});
