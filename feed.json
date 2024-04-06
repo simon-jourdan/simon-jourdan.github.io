@@ -69,15 +69,15 @@
             "id": "https://simonjourdan.fr/terrasser/",
             "url": "https://simonjourdan.fr/terrasser/",
             "title": "Terrasser",
-            "summary": "Terrasser Projet vidéo-danse en co-réalisation avec Annabelle Pirlot Dossier Canvas",
-            "content_html": "<section class=\"small\">\n<h3 class=\"align-center\">Terrasser</h3>\n<p class=\"align-center\">Projet vidéo-danse <br>en co-réalisation avec Annabelle Pirlot</p>\n<p class=\"align-center\"><a href=\"https://web.archive.org/web/20230929073246/https://www.canva.com/design/DAEIc9A7mhA/v7GOlBBrLK1u5QhaaivnJg/edit\" target=\"_blank\" rel=\"noopener noreferrer\">Dossier Canvas</a></p>\n</section>\n<figure class=\"post__video\"><iframe loading=\"lazy\" width=\"425\" height=\"240\" src=\"https://player.vimeo.com/video/306187696?title=0&amp;amp;byline=0\" allowfullscreen=\"allowfullscreen\"></iframe>\n<figcaption ></figcaption>\n</figure>\n<figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://simonjourdan.fr/media/posts/14/y1eqvtjd.jpg\" alt=\"\" width=\"356\" height=\"200\" sizes=\"(max-width: 48em) 100vw, 768px\" srcset=\"https://simonjourdan.fr/media/posts/14/responsive/y1eqvtjd-xs.jpg 300w ,https://simonjourdan.fr/media/posts/14/responsive/y1eqvtjd-sm.jpg 480w ,https://simonjourdan.fr/media/posts/14/responsive/y1eqvtjd-md.jpg 768w\"></figure>\n<figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://simonjourdan.fr/media/posts/14/nimyt9o3.jpg\" alt=\"\" width=\"356\" height=\"200\" sizes=\"(max-width: 48em) 100vw, 768px\" srcset=\"https://simonjourdan.fr/media/posts/14/responsive/nimyt9o3-xs.jpg 300w ,https://simonjourdan.fr/media/posts/14/responsive/nimyt9o3-sm.jpg 480w ,https://simonjourdan.fr/media/posts/14/responsive/nimyt9o3-md.jpg 768w\"></figure>",
+            "summary": "Terrasser Projet vidéo-danse en co-réalisation avec Annabelle Pirlot Dossier Canva",
+            "content_html": "<section class=\"small\">\n<h3 class=\"align-center\">Terrasser</h3>\n<p class=\"align-center\">Projet vidéo-danse <br>en co-réalisation avec Annabelle Pirlot</p>\n<p class=\"align-center\"><a href=\"https://www.canva.com/design/DAEIc9A7mhA/v7GOlBBrLK1u5QhaaivnJg/\" target=\"_blank\" rel=\"noopener noreferrer\">Dossier Canva</a></p>\n</section>\n<figure class=\"post__video\"><iframe loading=\"lazy\" width=\"425\" height=\"240\" src=\"https://player.vimeo.com/video/306187696?title=0&amp;amp;byline=0\" allowfullscreen=\"allowfullscreen\"></iframe>\n<figcaption ></figcaption>\n</figure>",
             "author": {
                 "name": "Simon Jourdan"
             },
             "tags": [
             ],
             "date_published": "2024-01-19T21:43:36+01:00",
-            "date_modified": "2024-01-21T11:20:31+01:00"
+            "date_modified": "2024-04-06T10:16:05+02:00"
         },
         {
             "id": "https://simonjourdan.fr/polaroids/",

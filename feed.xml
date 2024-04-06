@@ -3,7 +3,7 @@
     <title>Simon Jourdan Photographe</title>
     <link href="https://simonjourdan.fr/feed.xml" rel="self" />
     <link href="https://simonjourdan.fr" />
-    <updated>2024-04-05T12:23:52+02:00</updated>
+    <updated>2024-04-06T10:16:05+02:00</updated>
     <author>
         <name>Simon Jourdan</name>
     </author>
@@ -232,10 +232,10 @@
         <link href="https://simonjourdan.fr/terrasser/"/>
         <id>https://simonjourdan.fr/terrasser/</id>
 
-        <updated>2024-01-21T11:20:31+01:00</updated>
+        <updated>2024-04-06T10:16:05+02:00</updated>
             <summary>
                 <![CDATA[
-                    Terrasser Projet vidéo-danse en co-réalisation avec Annabelle Pirlot Dossier Canvas
+                    Terrasser Projet vidéo-danse en co-réalisation avec Annabelle Pirlot Dossier Canva
                 ]]>
             </summary>
         <content type="html">
@@ -243,13 +243,11 @@
                 <section class="small">
 <h3 class="align-center">Terrasser</h3>
 <p class="align-center">Projet vidéo-danse <br>en co-réalisation avec Annabelle Pirlot</p>
-<p class="align-center"><a href="https://web.archive.org/web/20230929073246/https://www.canva.com/design/DAEIc9A7mhA/v7GOlBBrLK1u5QhaaivnJg/edit" target="_blank" rel="noopener noreferrer">Dossier Canvas</a></p>
+<p class="align-center"><a href="https://www.canva.com/design/DAEIc9A7mhA/v7GOlBBrLK1u5QhaaivnJg/" target="_blank" rel="noopener noreferrer">Dossier Canva</a></p>
 </section>
 <figure class="post__video"><iframe loading="lazy" width="425" height="240" src="https://player.vimeo.com/video/306187696?title=0&amp;amp;byline=0" allowfullscreen="allowfullscreen"></iframe>
 <figcaption ></figcaption>
 </figure>
-<figure class="post__image"><img loading="lazy"  src="https://simonjourdan.fr/media/posts/14/y1eqvtjd.jpg" alt="" width="356" height="200" sizes="(max-width: 48em) 100vw, 768px" srcset="https://simonjourdan.fr/media/posts/14/responsive/y1eqvtjd-xs.jpg 300w ,https://simonjourdan.fr/media/posts/14/responsive/y1eqvtjd-sm.jpg 480w ,https://simonjourdan.fr/media/posts/14/responsive/y1eqvtjd-md.jpg 768w"></figure>
-<figure class="post__image"><img loading="lazy"  src="https://simonjourdan.fr/media/posts/14/nimyt9o3.jpg" alt="" width="356" height="200" sizes="(max-width: 48em) 100vw, 768px" srcset="https://simonjourdan.fr/media/posts/14/responsive/nimyt9o3-xs.jpg 300w ,https://simonjourdan.fr/media/posts/14/responsive/nimyt9o3-sm.jpg 480w ,https://simonjourdan.fr/media/posts/14/responsive/nimyt9o3-md.jpg 768w"></figure>
             ]]>
         </content>
     </entry>
