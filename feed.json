@@ -70,14 +70,14 @@
             "url": "https://simonjourdan.fr/terrasser/",
             "title": "Terrasser",
             "summary": "Terrasser Projet vidéo-danse en co-réalisation avec Annabelle Pirlot Dossier Canva",
-            "content_html": "<section class=\"small\">\n<h3 class=\"align-center\">Terrasser</h3>\n<p class=\"align-center\">Projet vidéo-danse <br>en co-réalisation avec Annabelle Pirlot</p>\n<p class=\"align-center\"><a href=\"https://www.canva.com/design/DAEIc9A7mhA/v7GOlBBrLK1u5QhaaivnJg/\" target=\"_blank\" rel=\"noopener noreferrer\">Dossier Canva</a></p>\n</section>\n<figure class=\"post__video\"><iframe loading=\"lazy\" width=\"425\" height=\"240\" src=\"https://player.vimeo.com/video/306187696?title=0&amp;amp;byline=0\" allowfullscreen=\"allowfullscreen\"></iframe>\n<figcaption ></figcaption>\n</figure>",
+            "content_html": "<section class=\"small\">\n<h3 class=\"align-center\">Terrasser</h3>\n<p class=\"align-center\">Projet vidéo-danse <br>en co-réalisation avec Annabelle Pirlot</p>\n<p class=\"align-center\"><a href=\"https://www.canva.com/design/DAEIc9A7mhA/v7GOlBBrLK1u5QhaaivnJg/view\" target=\"_blank\" rel=\"noopener noreferrer\">Dossier Canva</a></p>\n</section>\n<figure class=\"post__video\"><iframe loading=\"lazy\" width=\"425\" height=\"240\" src=\"https://player.vimeo.com/video/306187696?title=0&amp;amp;byline=0\" allowfullscreen=\"allowfullscreen\"></iframe>\n<figcaption ></figcaption>\n</figure>",
             "author": {
                 "name": "Simon Jourdan"
             },
             "tags": [
             ],
             "date_published": "2024-01-19T21:43:36+01:00",
-            "date_modified": "2024-04-06T10:16:05+02:00"
+            "date_modified": "2024-04-06T10:27:51+02:00"
         },
         {
             "id": "https://simonjourdan.fr/polaroids/",
