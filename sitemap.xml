@@ -458,9 +458,13 @@
 </url>
 <url>
 <loc>https://simonjourdan.fr/la-chambre-24/</loc>
-<lastmod>2026-10-01T08:03:35+02:00</lastmod>
+<lastmod>2026-10-01T14:37:35+02:00</lastmod>
 <image:image>
 <image:loc>https://simonjourdan.fr/media/posts/19/031-Chambre24-IMG_9863.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://simonjourdan.fr/media/posts/19/202610SimonJourdan002-IMG_8348_SnapseedCopy.jpg</image:loc>
 <image:title><![CDATA[]]></image:title>
 </image:image>
 <image:image>
@@ -472,7 +476,7 @@
 <image:title><![CDATA[]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://simonjourdan.fr/media/posts/19/004-Chambre24-IMG_7471.jpg</image:loc>
+<image:loc>https://simonjourdan.fr/media/posts/19/202610SimonJourdan004-IMG_0922_SnapseedCopy.jpg</image:loc>
 <image:title><![CDATA[]]></image:title>
 </image:image>
 <image:image>
@@ -573,10 +577,6 @@
 </image:image>
 <image:image>
 <image:loc>https://simonjourdan.fr/media/posts/19/030-Chambre24-20220407SimonJourdan_8853.jpg</image:loc>
-<image:title><![CDATA[]]></image:title>
-</image:image>
-<image:image>
-<image:loc>https://simonjourdan.fr/media/posts/19/031-Chambre24-IMG_9863.jpg</image:loc>
 <image:title><![CDATA[]]></image:title>
 </image:image>
 </url>
@@ -976,7 +976,7 @@
 </url>
 <url>
 <loc>https://simonjourdan.fr/terrasser/</loc>
-<lastmod>2026-09-29T17:42:32+02:00</lastmod>
+<lastmod>2026-10-01T13:12:12+02:00</lastmod>
 </url>
 <url>
 <loc>https://simonjourdan.fr/utah/</loc>
